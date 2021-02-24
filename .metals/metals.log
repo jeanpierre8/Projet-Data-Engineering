@@ -1,0 +1,932 @@
+[0m2021.02.05 16:03:58 INFO  Started: Metals version 0.9.10 in workspace 'D:\Ddownload\TP_MR' for client vscode 1.53.0.[0m
+[0m2021.02.05 16:03:59 INFO  time: initialize in 0.6s[0m
+[0m2021.02.05 16:04:00 WARN  Build server is not auto-connectable.[0m
+[0m2021.02.05 16:04:04 INFO  no build target: using presentation compiler with only scala-library[0m
+[0m2021.02.05 16:04:07 WARN  no build target for: D:\Ddownload\TP_MR\src\main\scala\TP_MR.scala[0m
+févr. 05, 2021 4:04:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1
+[0m2021.02.05 16:04:07 INFO  running 'C:\Program Files (x86)\Java\jdk1.8.0_161\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\coren\AppData\Local\Temp\metals4295235424843246381\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.02.05 16:04:08 ERROR [info] [launcher] getting org.fusesource.jansi jansi 1.11  (this may take some time)...[0m
+[0m2021.02.05 16:04:12 ERROR downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.11/jansi-1.11.jar ...[0m
+[0m2021.02.05 16:04:12 ERROR :: loading settings :: url = jar:file:/C:/Users/coren/AppData/Local/Temp/metals4295235424843246381/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.02.05 16:04:12 ERROR 	[SUCCESSFUL ] org.fusesource.jansi#jansi;1.11!jansi.jar (81ms)[0m
+[0m2021.02.05 16:04:12 ERROR :: retrieving :: org.scala-sbt#boot-jansi[0m
+[0m2021.02.05 16:04:12 ERROR 	confs: [default][0m
+[0m2021.02.05 16:04:12 ERROR :: loading settings :: url = jar:file:/C:/Users/coren/AppData/Local/Temp/metals4295235424843246381/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.02.05 16:04:12 ERROR 	1 artifacts copied, 0 already retrieved[0m
+[0m2021.02.05 16:04:14 INFO  [info] welcome to sbt 1.4.5 (Oracle Corporation Java 1.8.0_161)[0m
+[0m2021.02.05 16:04:17 INFO  [info] loading settings for project tp_mr-build-build from metals.sbt ...[0m
+[0m2021.02.05 16:04:18 INFO  [info] loading project definition from D:\Ddownload\TP_MR\project\project[0m
+[0m2021.02.05 16:04:23 INFO  [info] loading settings for project tp_mr-build from metals.sbt ...[0m
+[0m2021.02.05 16:04:23 INFO  [info] loading project definition from D:\Ddownload\TP_MR\project[0m
+[0m2021.02.05 16:04:31 INFO  [success] Generated .bloop\tp_mr-build.json[0m
+[0m2021.02.05 16:04:31 INFO  [success] Total time: 8 s, completed 5 févr. 2021 16:04:31[0m
+[0m2021.02.05 16:04:33 INFO  [info] loading settings for project tp_mr from build.sbt ...[0m
+[0m2021.02.05 16:04:33 INFO  [info] set current project to TP_MR (in build file:/D:/Ddownload/TP_MR/)[0m
+[0m2021.02.05 16:04:34 INFO  [success] Generated .bloop\tp_mr-test.json[0m
+[0m2021.02.05 16:04:34 INFO  [success] Generated .bloop\tp_mr.json[0m
+[0m2021.02.05 16:04:34 INFO  [success] Total time: 1 s, completed 5 févr. 2021 16:04:34[0m
+[0m2021.02.05 16:04:34 INFO  sbt bloopInstall exit: 0[0m
+[0m2021.02.05 16:04:34 INFO  time: ran 'sbt bloopInstall' in 26s[0m
+[0m2021.02.05 16:04:34 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 15567'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.6-21-464e4ec4...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from 'd:\Ddownload\TP_MR\.bloop'...
+[0m[32m[D][0m Loading project from 'd:\Ddownload\TP_MR\.bloop\tp_mr-test.json'
+[0m[32m[D][0m Loading project from 'd:\Ddownload\TP_MR\.bloop\tp_mr.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.1.
+[0m[32m[D][0m   => C:\Users\coren\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar
+[0m[32m[D][0m   => C:\Users\coren\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar
+[0m[32m[D][0m   => C:\Users\coren\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.1\scala-compiler-2.13.1.jar
+[0m[32m[D][0m   => C:\Users\coren\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.1\scala-library-2.13.1.jar
+[0m[32m[D][0m   => C:\Users\coren\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.1\scala-reflect-2.13.1.jar
+[0m[32m[D][0m Missing analysis file for project 'tp_mr'
+[0m[32m[D][0m Missing analysis file for project 'tp_mr-test'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:15567...
+The server is listening for incoming connections at tcp://127.0.0.1:15567...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.02.05 16:04:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\coren\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.02.05 16:04:52 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 24468'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:24468...
+The server is listening for incoming connections at tcp://127.0.0.1:24468...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.02.05 16:04:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\coren\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.02.05 16:04:56 INFO  time: connected to build server in 21s[0m
+[0m2021.02.05 16:04:56 INFO  Connected to Build server v1.4.6-21-464e4ec4[0m
+[0m2021.02.05 16:04:56 INFO  time: imported build in 0.1s[0m
+[0m2021.02.05 16:05:02 INFO  time: indexed workspace in 6.34s[0m
+[0m2021.02.05 16:05:51 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 16:06:01 INFO  compiling tp_mr-test (1 scala source)[0m
+[0m2021.02.05 16:06:01 INFO  time: compiled tp_mr in 9.77s[0m
+[0m2021.02.05 16:06:01 WARN  there was one deprecation warning (since 3.1.0); re-run with -deprecation for details[0m
+[0m2021.02.05 16:06:01 INFO  time: compiled tp_mr-test in 0.71s[0m
+[0m2021.02.05 16:07:23 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 16:07:25 INFO  time: compiled tp_mr in 1.33s[0m
+something's wrong: no file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala in List[T]RangePosition(file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala, 1121, 1121, 1128)
+something's wrong: no file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala in List[T]RangePosition(file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala, 1121, 1121, 1128)
+févr. 05, 2021 4:12:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 403
+[0m2021.02.05 16:12:33 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 16:12:33 INFO  time: compiled tp_mr in 0.24s[0m
+[0m2021.02.05 16:13:27 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 16:13:27 INFO  time: compiled tp_mr in 0.29s[0m
+[0m2021.02.05 16:14:03 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 16:14:05 INFO  time: compiled tp_mr in 1.81s[0m
+[0m2021.02.05 16:18:06 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 16:18:06 INFO  time: compiled tp_mr in 0.27s[0m
+[0m2021.02.05 16:18:11 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 16:18:12 INFO  time: compiled tp_mr in 1.42s[0m
+something's wrong: no file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala in List[T]RangePosition(file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala, 1678, 1678, 1685)
+[0m2021.02.05 16:22:46 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 16:22:48 INFO  time: compiled tp_mr in 1.75s[0m
+févr. 05, 2021 4:23:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.classifiers.`package`.XtensionClassifiable[scala.meta.tokens.Token](ScalametaParser.this.token)(scala.meta.tokens.Token.classifiable[scala.meta.tokens.Token]).isNot[scala.meta.tokens.Token.KwCase](Token.this.KwCase.classifier[scala.meta.tokens.Token]).&&(org.scalameta.`package`.debug(ScalametaParser.this.token))
+found that scala.meta.classifiers.`package`.XtensionClassifiable[scala.meta.tokens.Token](ScalametaParser.this.token)(scala.meta.tokens.Token.classifiable[scala.meta.tokens.Token]).isNot[scala.meta.tokens.Token.KwCase](Token.this.KwCase.classifier[scala.meta.tokens.Token]) is false
+where ScalametaParser = scala.meta.internal.parsers.ScalametaParser@1dd43ae
+where ScalametaParser.this.token = case
+where Token = scala.meta.tokens.Token$@636d6b
+java.util.concurrent.CompletionException: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.classifiers.`package`.XtensionClassifiable[scala.meta.tokens.Token](ScalametaParser.this.token)(scala.meta.tokens.Token.classifiable[scala.meta.tokens.Token]).isNot[scala.meta.tokens.Token.KwCase](Token.this.KwCase.classifier[scala.meta.tokens.Token]).&&(org.scalameta.`package`.debug(ScalametaParser.this.token))
+found that scala.meta.classifiers.`package`.XtensionClassifiable[scala.meta.tokens.Token](ScalametaParser.this.token)(scala.meta.tokens.Token.classifiable[scala.meta.tokens.Token]).isNot[scala.meta.tokens.Token.KwCase](Token.this.KwCase.classifier[scala.meta.tokens.Token]) is false
+where ScalametaParser = scala.meta.internal.parsers.ScalametaParser@1dd43ae
+where ScalametaParser.this.token = case
+where Token = scala.meta.tokens.Token$@636d6b
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:273)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:280)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1592)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.classifiers.`package`.XtensionClassifiable[scala.meta.tokens.Token](ScalametaParser.this.token)(scala.meta.tokens.Token.classifiable[scala.meta.tokens.Token]).isNot[scala.meta.tokens.Token.KwCase](Token.this.KwCase.classifier[scala.meta.tokens.Token]).&&(org.scalameta.`package`.debug(ScalametaParser.this.token))
+found that scala.meta.classifiers.`package`.XtensionClassifiable[scala.meta.tokens.Token](ScalametaParser.this.token)(scala.meta.tokens.Token.classifiable[scala.meta.tokens.Token]).isNot[scala.meta.tokens.Token.KwCase](Token.this.KwCase.classifier[scala.meta.tokens.Token]) is false
+where ScalametaParser = scala.meta.internal.parsers.ScalametaParser@1dd43ae
+where ScalametaParser.this.token = case
+where Token = scala.meta.tokens.Token$@636d6b
+	at org.scalameta.invariants.InvariantFailedException$.raise(Exceptions.scala:19)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$caseClause$1(ScalametaParser.scala:2901)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.caseClause(ScalametaParser.scala:2900)
+	at scala.meta.internal.parsers.ScalametaParser.caseClauses(ScalametaParser.scala:2941)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$matchClause$4(ScalametaParser.scala:2056)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:621)
+	at scala.meta.internal.parsers.ScalametaParser.inBracesOrError(ScalametaParser.scala:628)
+	at scala.meta.internal.parsers.ScalametaParser.inBracesOrNil(ScalametaParser.scala:643)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$matchClause$3(ScalametaParser.scala:2056)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.matchClause(ScalametaParser.scala:2056)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$1(ScalametaParser.scala:2236)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:720)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:2098)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1993)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:2021)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$funDefRest$1(ScalametaParser.scala:4094)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.funDefRest(ScalametaParser.scala:4036)
+	at scala.meta.internal.parsers.ScalametaParser.funDefOrDclOrExtensionOrSecondaryCtor(ScalametaParser.scala:3980)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3833)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3818)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1$1.applyOrElse(ScalametaParser.scala:4715)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1$1.applyOrElse(ScalametaParser.scala:4709)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4653)
+	at scala.meta.internal.parsers.ScalametaParser.templateStats(ScalametaParser.scala:4725)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:4705)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4559)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:621)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4559)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4567)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4552)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$objectDef$1(ScalametaParser.scala:4293)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.objectDef(ScalametaParser.scala:4285)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4169)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4151)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:4675)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:4663)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4653)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4662)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4876)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:720)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4842)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4825)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:720)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4824)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4830)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$259.apply(ScalametaParser.scala:4887)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.metals.Trees.$anonfun$parse$1(Trees.scala:66)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.Trees.parse(Trees.scala:64)
+	at scala.meta.internal.metals.Trees.didChange(Trees.scala:38)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$didChange$1(ScalaPresentationCompiler.scala:128)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590)
+	... 3 more
+
+[0m2021.02.05 16:24:10 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 16:24:12 INFO  time: compiled tp_mr in 1.64s[0m
+[0m2021.02.05 16:25:00 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 16:25:01 INFO  time: compiled tp_mr in 1.46s[0m
+[0m2021.02.05 16:26:51 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 16:26:52 INFO  time: compiled tp_mr in 1.6s[0m
+[0m2021.02.05 16:28:27 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 16:28:29 INFO  time: compiled tp_mr in 1.33s[0m
+[0m2021.02.05 16:28:36 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 16:28:37 INFO  time: compiled tp_mr in 1.41s[0m
+févr. 05, 2021 4:28:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1626
+[0m2021.02.05 16:28:41 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 16:28:43 INFO  time: compiled tp_mr in 1.27s[0m
+[0m2021.02.05 16:29:21 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 16:29:22 INFO  time: compiled tp_mr in 1.3s[0m
+févr. 05, 2021 4:36:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.classifiers.`package`.XtensionClassifiable[scala.meta.tokens.Token](ScalametaParser.this.token)(scala.meta.tokens.Token.classifiable[scala.meta.tokens.Token]).isNot[scala.meta.tokens.Token.KwCase](Token.this.KwCase.classifier[scala.meta.tokens.Token]).&&(org.scalameta.`package`.debug(ScalametaParser.this.token))
+found that scala.meta.classifiers.`package`.XtensionClassifiable[scala.meta.tokens.Token](ScalametaParser.this.token)(scala.meta.tokens.Token.classifiable[scala.meta.tokens.Token]).isNot[scala.meta.tokens.Token.KwCase](Token.this.KwCase.classifier[scala.meta.tokens.Token]) is false
+where ScalametaParser = scala.meta.internal.parsers.ScalametaParser@11a2579
+where ScalametaParser.this.token = case
+where Token = scala.meta.tokens.Token$@636d6b
+java.util.concurrent.CompletionException: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.classifiers.`package`.XtensionClassifiable[scala.meta.tokens.Token](ScalametaParser.this.token)(scala.meta.tokens.Token.classifiable[scala.meta.tokens.Token]).isNot[scala.meta.tokens.Token.KwCase](Token.this.KwCase.classifier[scala.meta.tokens.Token]).&&(org.scalameta.`package`.debug(ScalametaParser.this.token))
+found that scala.meta.classifiers.`package`.XtensionClassifiable[scala.meta.tokens.Token](ScalametaParser.this.token)(scala.meta.tokens.Token.classifiable[scala.meta.tokens.Token]).isNot[scala.meta.tokens.Token.KwCase](Token.this.KwCase.classifier[scala.meta.tokens.Token]) is false
+where ScalametaParser = scala.meta.internal.parsers.ScalametaParser@11a2579
+where ScalametaParser.this.token = case
+where Token = scala.meta.tokens.Token$@636d6b
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:273)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:280)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1592)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.classifiers.`package`.XtensionClassifiable[scala.meta.tokens.Token](ScalametaParser.this.token)(scala.meta.tokens.Token.classifiable[scala.meta.tokens.Token]).isNot[scala.meta.tokens.Token.KwCase](Token.this.KwCase.classifier[scala.meta.tokens.Token]).&&(org.scalameta.`package`.debug(ScalametaParser.this.token))
+found that scala.meta.classifiers.`package`.XtensionClassifiable[scala.meta.tokens.Token](ScalametaParser.this.token)(scala.meta.tokens.Token.classifiable[scala.meta.tokens.Token]).isNot[scala.meta.tokens.Token.KwCase](Token.this.KwCase.classifier[scala.meta.tokens.Token]) is false
+where ScalametaParser = scala.meta.internal.parsers.ScalametaParser@11a2579
+where ScalametaParser.this.token = case
+where Token = scala.meta.tokens.Token$@636d6b
+	at org.scalameta.invariants.InvariantFailedException$.raise(Exceptions.scala:19)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$caseClause$1(ScalametaParser.scala:2901)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.caseClause(ScalametaParser.scala:2900)
+	at scala.meta.internal.parsers.ScalametaParser.caseClauses(ScalametaParser.scala:2941)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$matchClause$4(ScalametaParser.scala:2056)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:621)
+	at scala.meta.internal.parsers.ScalametaParser.inBracesOrError(ScalametaParser.scala:628)
+	at scala.meta.internal.parsers.ScalametaParser.inBracesOrNil(ScalametaParser.scala:643)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$matchClause$3(ScalametaParser.scala:2056)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.matchClause(ScalametaParser.scala:2056)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$1(ScalametaParser.scala:2236)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:720)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:2098)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1993)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:2021)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$funDefRest$1(ScalametaParser.scala:4094)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.funDefRest(ScalametaParser.scala:4036)
+	at scala.meta.internal.parsers.ScalametaParser.funDefOrDclOrExtensionOrSecondaryCtor(ScalametaParser.scala:3980)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3833)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3818)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1$1.applyOrElse(ScalametaParser.scala:4715)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1$1.applyOrElse(ScalametaParser.scala:4709)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4653)
+	at scala.meta.internal.parsers.ScalametaParser.templateStats(ScalametaParser.scala:4725)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:4705)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4559)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:621)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4559)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4567)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4552)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$objectDef$1(ScalametaParser.scala:4293)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.objectDef(ScalametaParser.scala:4285)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4169)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4151)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:4675)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:4663)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4653)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4662)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4876)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:720)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4842)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4825)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:720)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4824)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4830)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$259.apply(ScalametaParser.scala:4887)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.metals.Trees.$anonfun$parse$1(Trees.scala:66)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.Trees.parse(Trees.scala:64)
+	at scala.meta.internal.metals.Trees.didChange(Trees.scala:38)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$didChange$1(ScalaPresentationCompiler.scala:128)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590)
+	... 3 more
+
+févr. 05, 2021 4:36:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+GRAVE: Internal error: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.classifiers.`package`.XtensionClassifiable[scala.meta.tokens.Token](ScalametaParser.this.token)(scala.meta.tokens.Token.classifiable[scala.meta.tokens.Token]).isNot[scala.meta.tokens.Token.KwCase](Token.this.KwCase.classifier[scala.meta.tokens.Token]).&&(org.scalameta.`package`.debug(ScalametaParser.this.token))
+found that scala.meta.classifiers.`package`.XtensionClassifiable[scala.meta.tokens.Token](ScalametaParser.this.token)(scala.meta.tokens.Token.classifiable[scala.meta.tokens.Token]).isNot[scala.meta.tokens.Token.KwCase](Token.this.KwCase.classifier[scala.meta.tokens.Token]) is false
+where ScalametaParser = scala.meta.internal.parsers.ScalametaParser@f92ca7
+where ScalametaParser.this.token = case
+where Token = scala.meta.tokens.Token$@636d6b
+java.util.concurrent.CompletionException: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.classifiers.`package`.XtensionClassifiable[scala.meta.tokens.Token](ScalametaParser.this.token)(scala.meta.tokens.Token.classifiable[scala.meta.tokens.Token]).isNot[scala.meta.tokens.Token.KwCase](Token.this.KwCase.classifier[scala.meta.tokens.Token]).&&(org.scalameta.`package`.debug(ScalametaParser.this.token))
+found that scala.meta.classifiers.`package`.XtensionClassifiable[scala.meta.tokens.Token](ScalametaParser.this.token)(scala.meta.tokens.Token.classifiable[scala.meta.tokens.Token]).isNot[scala.meta.tokens.Token.KwCase](Token.this.KwCase.classifier[scala.meta.tokens.Token]) is false
+where ScalametaParser = scala.meta.internal.parsers.ScalametaParser@f92ca7
+where ScalametaParser.this.token = case
+where Token = scala.meta.tokens.Token$@636d6b
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:273)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:280)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1592)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.classifiers.`package`.XtensionClassifiable[scala.meta.tokens.Token](ScalametaParser.this.token)(scala.meta.tokens.Token.classifiable[scala.meta.tokens.Token]).isNot[scala.meta.tokens.Token.KwCase](Token.this.KwCase.classifier[scala.meta.tokens.Token]).&&(org.scalameta.`package`.debug(ScalametaParser.this.token))
+found that scala.meta.classifiers.`package`.XtensionClassifiable[scala.meta.tokens.Token](ScalametaParser.this.token)(scala.meta.tokens.Token.classifiable[scala.meta.tokens.Token]).isNot[scala.meta.tokens.Token.KwCase](Token.this.KwCase.classifier[scala.meta.tokens.Token]) is false
+where ScalametaParser = scala.meta.internal.parsers.ScalametaParser@f92ca7
+where ScalametaParser.this.token = case
+where Token = scala.meta.tokens.Token$@636d6b
+	at org.scalameta.invariants.InvariantFailedException$.raise(Exceptions.scala:19)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$caseClause$1(ScalametaParser.scala:2901)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.caseClause(ScalametaParser.scala:2900)
+	at scala.meta.internal.parsers.ScalametaParser.caseClauses(ScalametaParser.scala:2941)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$matchClause$4(ScalametaParser.scala:2056)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:621)
+	at scala.meta.internal.parsers.ScalametaParser.inBracesOrError(ScalametaParser.scala:628)
+	at scala.meta.internal.parsers.ScalametaParser.inBracesOrNil(ScalametaParser.scala:643)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$matchClause$3(ScalametaParser.scala:2056)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.matchClause(ScalametaParser.scala:2056)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$1(ScalametaParser.scala:2236)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:720)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:2098)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1993)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:2021)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$funDefRest$1(ScalametaParser.scala:4094)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.funDefRest(ScalametaParser.scala:4036)
+	at scala.meta.internal.parsers.ScalametaParser.funDefOrDclOrExtensionOrSecondaryCtor(ScalametaParser.scala:3980)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3833)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3818)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1$1.applyOrElse(ScalametaParser.scala:4715)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1$1.applyOrElse(ScalametaParser.scala:4709)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4653)
+	at scala.meta.internal.parsers.ScalametaParser.templateStats(ScalametaParser.scala:4725)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:4705)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4559)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:621)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4559)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4567)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4552)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$objectDef$1(ScalametaParser.scala:4293)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.objectDef(ScalametaParser.scala:4285)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4169)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4151)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:4675)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:4663)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4653)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4662)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4876)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:720)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4842)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4825)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:704)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:720)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4824)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4830)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$259.apply(ScalametaParser.scala:4887)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.metals.Trees.$anonfun$parse$1(Trees.scala:66)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.Trees.parse(Trees.scala:64)
+	at scala.meta.internal.metals.Trees.didChange(Trees.scala:38)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$didChange$1(ScalaPresentationCompiler.scala:128)
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1590)
+	... 3 more
+
+[0m2021.02.05 16:36:22 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 16:36:24 INFO  time: compiled tp_mr in 1.35s[0m
+[0m2021.02.05 16:37:03 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 16:37:05 INFO  time: compiled tp_mr in 1.5s[0m
+[0m2021.02.05 16:39:03 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 16:39:03 INFO  time: compiled tp_mr in 0.25s[0m
+[0m2021.02.05 16:43:52 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 16:43:52 INFO  time: compiled tp_mr in 97ms[0m
+[0m2021.02.05 16:45:05 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 16:45:06 INFO  time: compiled tp_mr in 1.48s[0m
+something's wrong: no file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala in List[T]RangePosition(file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala, 1993, 1993, 2000)
+[0m2021.02.05 16:45:10 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 16:45:12 INFO  time: compiled tp_mr in 1.4s[0m
+[0m2021.02.05 16:49:24 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 16:49:24 INFO  time: compiled tp_mr in 0.34s[0m
+[0m2021.02.05 16:49:29 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 16:49:29 INFO  time: compiled tp_mr in 0.25s[0m
+[0m2021.02.05 16:49:51 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 16:49:51 INFO  time: compiled tp_mr in 0.3s[0m
+something's wrong: no file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala in List[T]RangePosition(file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala, 2252, 2252, 2259)
+something's wrong: no file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala in List[T]RangePosition(file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala, 2252, 2252, 2259)
+[0m2021.02.05 16:50:42 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 16:50:42 INFO  time: compiled tp_mr in 0.23s[0m
+[0m2021.02.05 17:04:04 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 17:04:06 INFO  time: compiled tp_mr in 1.71s[0m
+[0m2021.02.05 17:05:53 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 17:05:54 INFO  time: compiled tp_mr in 1.8s[0m
+[0m2021.02.05 17:09:37 INFO  time: code lens generation in 1.68s[0m
+[0m2021.02.05 17:09:37 INFO  time: code lens generation in 1.68s[0m
+févr. 05, 2021 5:16:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3060
+févr. 05, 2021 5:16:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3062
+févr. 05, 2021 5:16:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3065
+févr. 05, 2021 5:16:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3067
+févr. 05, 2021 5:16:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3064
+févr. 05, 2021 5:16:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3066
+févr. 05, 2021 5:16:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3069
+févr. 05, 2021 5:16:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3073
+févr. 05, 2021 5:16:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3070
+févr. 05, 2021 5:16:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3072
+févr. 05, 2021 5:16:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3075
+[0m2021.02.05 17:17:22 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 17:17:22 INFO  time: compiled tp_mr in 0.32s[0m
+[0m2021.02.05 17:17:37 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 17:17:39 INFO  time: compiled tp_mr in 2s[0m
+[0m2021.02.05 17:23:06 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 17:23:06 INFO  time: compiled tp_mr in 0.32s[0m
+[0m2021.02.05 17:24:39 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 17:24:39 INFO  time: compiled tp_mr in 0.23s[0m
+[0m2021.02.05 17:25:36 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 17:25:37 INFO  time: compiled tp_mr in 1.54s[0m
+févr. 05, 2021 5:32:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3715
+févr. 05, 2021 5:32:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3717
+févr. 05, 2021 5:32:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3722
+févr. 05, 2021 5:32:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3719
+[0m2021.02.05 17:33:40 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 17:33:40 INFO  time: compiled tp_mr in 0.28s[0m
+[0m2021.02.05 17:34:33 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 17:34:33 INFO  time: compiled tp_mr in 0.23s[0m
+something's wrong: no file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala in Iterator[Double]RangePosition(file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala, 3874, 3874, 3890)
+something's wrong: no file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala in Iterator[Double]RangePosition(file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala, 3874, 3874, 3890)
+[0m2021.02.05 17:35:30 INFO  D:\Ddownload\TP_MR\src\main\scala\TP_MR.scala:117:59: stale bloop error: type mismatch;
+ found   : Double
+ required: Option[Double]
+  def average(values: Iterator[Double]): Option[Double] = values.fold(0.0) {(acc, element) => acc + element / values.length}
+                                                          ^^^^^^^^^^^^^^^^[0m
+[0m2021.02.05 17:35:30 INFO  D:\Ddownload\TP_MR\src\main\scala\TP_MR.scala:117:59: stale bloop error: type mismatch;
+ found   : Double
+ required: Option[Double]
+  def average(values: Iterator[Double]): Option[Double] = values.fold(0.0) {(acc, element) => acc + element / values.length}
+                                                          ^^^^^^^^^^^^^^^^[0m
+[0m2021.02.05 17:35:47 INFO  D:\Ddownload\TP_MR\src\main\scala\TP_MR.scala:117:59: stale bloop error: type mismatch;
+ found   : Double
+ required: Option[Double]
+  def average(values: Iterator[Double]): Option[Double] = values.fold(0.0) {(acc, element) => acc + element / values.length}
+                                                          ^^^^^^^^^^^^^^^^[0m
+[0m2021.02.05 17:35:47 INFO  D:\Ddownload\TP_MR\src\main\scala\TP_MR.scala:117:59: stale bloop error: type mismatch;
+ found   : Double
+ required: Option[Double]
+  def average(values: Iterator[Double]): Option[Double] = values.fold(0.0) {(acc, element) => acc + element / values.length}
+                                                          ^^^^^^^^^^^^^^^^[0m
+[0m2021.02.05 17:36:17 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 17:36:17 INFO  time: compiled tp_mr in 0.13s[0m
+something's wrong: no file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala in Iterator[Double]RangePosition(file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala, 3874, 3874, 3890)
+[0m2021.02.05 17:36:29 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 17:36:29 INFO  time: compiled tp_mr in 0.24s[0m
+[0m2021.02.05 17:36:34 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 17:36:36 INFO  time: compiled tp_mr in 1.7s[0m
+[0m2021.02.05 17:36:41 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 17:36:42 INFO  time: compiled tp_mr in 1.48s[0m
+something's wrong: no file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala in Iterable[String]RangePosition(file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala, 6827, 6827, 6843)
+something's wrong: no file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala in Iterable[String]RangePosition(file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala, 6827, 6827, 6843)
+something's wrong: no file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala in Iterable[String]RangePosition(file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala, 6827, 6827, 6843)
+[0m2021.02.05 18:13:10 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 18:13:12 INFO  time: compiled tp_mr in 1.88s[0m
+[0m2021.02.05 18:28:03 INFO  time: code lens generation in 1.63s[0m
+[0m2021.02.05 18:28:03 INFO  time: code lens generation in 1.63s[0m
+[0m2021.02.05 18:30:52 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 18:30:52 INFO  time: compiled tp_mr in 0.35s[0m
+[0m2021.02.05 18:31:31 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.05 18:31:33 INFO  time: compiled tp_mr in 1.85s[0m
+[0m2021.02.05 18:35:32 INFO  shutting down Metals[0m
+[0m2021.02.05 18:35:33 INFO  Shut down connection with build server.[0m
+[0m2021.02.05 18:35:33 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.02.06 18:23:25 INFO  Started: Metals version 0.9.10 in workspace 'D:\Ddownload\TP_MR' for client vscode 1.53.0.[0m
+[0m2021.02.06 18:23:26 INFO  time: initialize in 0.6s[0m
+[0m2021.02.06 18:23:27 INFO  Attempting to connect to the build server...[0m
+[0m2021.02.06 18:23:27 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 36125'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.02.06 18:23:31 INFO  no build target: using presentation compiler with only scala-library[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.6-21-464e4ec4...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'd:\Ddownload\TP_MR\.bloop'...
+[0m[32m[D][0m Loading project from 'd:\Ddownload\TP_MR\.bloop\tp_mr.json'
+[0m[32m[D][0m Loading project from 'd:\Ddownload\TP_MR\.bloop\tp_mr-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.1.
+[0m[32m[D][0m   => C:\Users\coren\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar
+[0m[32m[D][0m   => C:\Users\coren\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar
+[0m[32m[D][0m   => C:\Users\coren\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.1\scala-compiler-2.13.1.jar
+[0m[32m[D][0m   => C:\Users\coren\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.1\scala-library-2.13.1.jar
+[0m[32m[D][0m   => C:\Users\coren\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.1\scala-reflect-2.13.1.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'tp_mr-test', 'tp_mr'
+[0m[32m[D][0m Loading previous analysis for 'tp_mr' from 'D:\Ddownload\TP_MR\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Loading previous analysis for 'tp_mr-test' from 'D:\Ddownload\TP_MR\target\streams\test\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:36125...
+The server is listening for incoming connections at tcp://127.0.0.1:36125...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.02.06 18:23:36 WARN  no build target for: D:\Ddownload\TP_MR\src\main\scala\TP_MR.scala[0m
+[0m2021.02.06 18:23:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\coren\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.02.06 18:23:38 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 35461'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:35461...
+The server is listening for incoming connections at tcp://127.0.0.1:35461...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.02.06 18:23:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\coren\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.02.06 18:23:40 INFO  time: connected to build server in 12s[0m
+[0m2021.02.06 18:23:40 INFO  Connected to Build server v1.4.6-21-464e4ec4[0m
+[0m2021.02.06 18:23:40 INFO  time: imported build in 0.24s[0m
+[0m2021.02.06 18:23:43 INFO  time: indexed workspace in 3.57s[0m
+[0m2021.02.06 18:24:32 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.06 18:24:37 INFO  compiling tp_mr-test (1 scala source)[0m
+[0m2021.02.06 18:24:37 INFO  time: compiled tp_mr in 5.82s[0m
+[0m2021.02.06 18:24:37 WARN  there was one deprecation warning (since 3.1.0); re-run with -deprecation for details[0m
+[0m2021.02.06 18:24:37 INFO  time: compiled tp_mr-test in 0.9s[0m
+[0m2021.02.06 20:33:55 INFO  shutting down Metals[0m
+[0m2021.02.06 20:33:55 INFO  Shut down connection with build server.[0m
+[0m2021.02.06 20:33:55 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.02.06 23:53:51 INFO  Started: Metals version 0.9.10 in workspace 'D:\Ddownload\TP_MR' for client vscode 1.53.0.[0m
+[0m2021.02.06 23:53:52 INFO  time: initialize in 0.53s[0m
+[0m2021.02.06 23:53:53 INFO  Attempting to connect to the build server...[0m
+[0m2021.02.06 23:53:53 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 15341'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.02.06 23:53:56 INFO  no build target: using presentation compiler with only scala-library[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.02.06 23:54:00 WARN  no build target for: D:\Ddownload\TP_MR\src\main\scala\TP_MR.scala[0m
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.6-21-464e4ec4...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'd:\Ddownload\TP_MR\.bloop'...
+[0m[32m[D][0m Loading project from 'd:\Ddownload\TP_MR\.bloop\tp_mr.json'
+[0m[32m[D][0m Loading project from 'd:\Ddownload\TP_MR\.bloop\tp_mr-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.1.
+[0m[32m[D][0m   => C:\Users\coren\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar
+[0m[32m[D][0m   => C:\Users\coren\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar
+[0m[32m[D][0m   => C:\Users\coren\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.1\scala-compiler-2.13.1.jar
+[0m[32m[D][0m   => C:\Users\coren\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.1\scala-library-2.13.1.jar
+[0m[32m[D][0m   => C:\Users\coren\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.1\scala-reflect-2.13.1.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'tp_mr-test', 'tp_mr'
+[0m[32m[D][0m Loading previous analysis for 'tp_mr-test' from 'D:\Ddownload\TP_MR\target\streams\test\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Loading previous analysis for 'tp_mr' from 'D:\Ddownload\TP_MR\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:15341...
+The server is listening for incoming connections at tcp://127.0.0.1:15341...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.02.06 23:54:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\coren\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.02.06 23:54:01 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 20128'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:20128...
+The server is listening for incoming connections at tcp://127.0.0.1:20128...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.02.06 23:54:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\coren\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.02.06 23:54:03 INFO  time: connected to build server in 9.64s[0m
+[0m2021.02.06 23:54:03 INFO  Connected to Build server v1.4.6-21-464e4ec4[0m
+[0m2021.02.06 23:54:03 INFO  time: imported build in 0.11s[0m
+[0m2021.02.06 23:54:05 INFO  time: indexed workspace in 2.54s[0m
+[0m2021.02.06 23:54:06 WARN  unexpected error processing the file D:\Ddownload\TP_MR\.bloop\tp_mr\bloop-bsp-clients-classes\classes-Metals-oVrLgpsfSYmI3x0M600lDQ==\META-INF\semanticdb\src\main\scala\TP_MR.scala.semanticdb
+java.nio.file.FileSystemException: D:\Ddownload\TP_MR\.bloop\tp_mr\bloop-bsp-clients-classes\classes-Metals-oVrLgpsfSYmI3x0M600lDQ==\META-INF\semanticdb\src\main\scala\TP_MR.scala.semanticdb: Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:104)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+[0m2021.02.06 23:54:06 WARN  unexpected error processing the file D:\Ddownload\TP_MR\.bloop\tp_mr\bloop-bsp-clients-classes\test-classes-Metals-oVrLgpsfSYmI3x0M600lDQ==\META-INF\semanticdb\src\test\scala\TP_MR.scala.semanticdb
+java.nio.file.FileSystemException: D:\Ddownload\TP_MR\.bloop\tp_mr\bloop-bsp-clients-classes\test-classes-Metals-oVrLgpsfSYmI3x0M600lDQ==\META-INF\semanticdb\src\test\scala\TP_MR.scala.semanticdb: Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:104)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+[0m2021.02.06 23:59:25 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.06 23:59:30 INFO  time: compiled tp_mr in 4.43s[0m
+févr. 07, 2021 12:00:09 AM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: String index out of range: -8
+java.lang.StringIndexOutOfBoundsException: String index out of range: -8
+	at java.lang.String.<init>(String.java:196)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1235)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1258)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:375)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:373)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:180)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:309)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:303)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:272)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+févr. 07, 2021 12:02:54 AM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: String index out of range: -8
+java.lang.StringIndexOutOfBoundsException: String index out of range: -8
+	at java.lang.String.<init>(String.java:196)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1235)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1258)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:375)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:373)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:180)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:309)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:303)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:272)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+[0m2021.02.07 00:03:14 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:03:14 INFO  time: compiled tp_mr in 0.42s[0m
+[0m2021.02.07 00:03:28 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:03:30 INFO  time: compiled tp_mr in 1.6s[0m
+[0m2021.02.07 00:03:48 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:03:48 INFO  time: compiled tp_mr in 0.31s[0m
+[0m2021.02.07 00:05:50 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:05:51 INFO  time: compiled tp_mr in 1.44s[0m
+[0m2021.02.07 00:09:35 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:09:35 INFO  time: compiled tp_mr in 0.34s[0m
+[0m2021.02.07 00:09:43 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:09:44 INFO  time: compiled tp_mr in 1.64s[0m
+[0m2021.02.07 00:12:35 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:12:35 INFO  time: compiled tp_mr in 0.35s[0m
+[0m2021.02.07 00:12:41 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:12:41 INFO  time: compiled tp_mr in 0.38s[0m
+[0m2021.02.07 00:15:24 INFO  D:\Ddownload\TP_MR\src\main\scala\TP_MR.scala:291:29: stale bloop error: could not find implicit value for evidence parameter of type TP_MR.Monoid[(String, Iterable[(Double, Int)])]
+      iterableWithCombineAll(partitionedRatingWithOne)
+                            ^[0m
+[0m2021.02.07 00:15:24 INFO  D:\Ddownload\TP_MR\src\main\scala\TP_MR.scala:291:29: stale bloop error: could not find implicit value for evidence parameter of type TP_MR.Monoid[(String, Iterable[(Double, Int)])]
+      iterableWithCombineAll(partitionedRatingWithOne)
+                            ^[0m
+[0m2021.02.07 00:17:02 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:17:02 INFO  time: compiled tp_mr in 0.16s[0m
+[0m2021.02.07 00:18:19 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:18:19 INFO  time: compiled tp_mr in 0.16s[0m
+[0m2021.02.07 00:18:26 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:18:26 INFO  time: compiled tp_mr in 0.14s[0m
+[0m2021.02.07 00:23:47 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:23:47 INFO  time: compiled tp_mr in 0.55s[0m
+[0m2021.02.07 00:24:48 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:24:48 INFO  time: compiled tp_mr in 0.39s[0m
+[0m2021.02.07 00:25:12 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:25:12 INFO  time: compiled tp_mr in 0.29s[0m
+[0m2021.02.07 00:25:59 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:25:59 INFO  time: compiled tp_mr in 0.28s[0m
+[0m2021.02.07 00:26:15 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:26:15 INFO  time: compiled tp_mr in 0.34s[0m
+[0m2021.02.07 00:26:55 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:26:55 INFO  time: compiled tp_mr in 0.32s[0m
+févr. 07, 2021 12:27:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1983
+[0m2021.02.07 00:28:26 INFO  D:\Ddownload\TP_MR\src\main\scala\TP_MR.scala:291:42: stale bloop error: missing argument list for method iterableWithCombineAll in object TP_MR
+Unapplied methods are only converted to functions when a function type is expected.
+You can make this conversion explicit by writing `iterableWithCombineAll _` or `iterableWithCombineAll(_)(_)` instead of `iterableWithCombineAll`.
+      partitionedRatingWithOne.mapValues(iterableWithCombineAll.combineAll)
+                                         ^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.02.07 00:28:26 INFO  D:\Ddownload\TP_MR\src\main\scala\TP_MR.scala:291:42: stale bloop error: missing argument list for method iterableWithCombineAll in object TP_MR
+Unapplied methods are only converted to functions when a function type is expected.
+You can make this conversion explicit by writing `iterableWithCombineAll _` or `iterableWithCombineAll(_)(_)` instead of `iterableWithCombineAll`.
+      partitionedRatingWithOne.mapValues(iterableWithCombineAll.combineAll)
+                                         ^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m2021.02.07 00:29:11 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:29:11 INFO  time: compiled tp_mr in 0.3s[0m
+[0m2021.02.07 00:29:24 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:29:25 INFO  time: compiled tp_mr in 1.75s[0m
+[0m2021.02.07 00:31:30 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:31:30 INFO  time: compiled tp_mr in 0.32s[0m
+[0m2021.02.07 00:32:00 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:32:00 INFO  time: compiled tp_mr in 0.31s[0m
+[0m2021.02.07 00:34:12 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:34:14 INFO  time: compiled tp_mr in 1.68s[0m
+févr. 07, 2021 12:35:48 AM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: String index out of range: -2
+java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.<init>(String.java:196)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1235)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1258)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:375)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:373)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:180)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:309)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:303)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:272)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+something's wrong: no file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala in (Double, <error>)RangePosition(file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala, 12304, 12304, 12321)
+something's wrong: no file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala in (Double, <error>)RangePosition(file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala, 12304, 12304, 12315)
+something's wrong: no file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala in (Double, <error>)RangePosition(file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala, 12304, 12304, 12316)
+[0m2021.02.07 00:36:09 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:36:09 INFO  time: compiled tp_mr in 0.34s[0m
+something's wrong: no file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala in Iterable[A]RangePosition(file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala, 11255, 11255, 11266)
+[0m2021.02.07 00:40:19 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:40:19 INFO  time: compiled tp_mr in 0.3s[0m
+[0m2021.02.07 00:40:58 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:40:58 INFO  time: compiled tp_mr in 0.32s[0m
+[0m2021.02.07 00:42:26 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:42:26 INFO  time: compiled tp_mr in 0.31s[0m
+something's wrong: no file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala in scala.collection.MapView[String,Iterable[(Double, Int)]]RangePosition(file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala, 11971, 11971, 12011)
+[0m2021.02.07 00:45:25 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:45:25 INFO  time: compiled tp_mr in 0.3s[0m
+[0m2021.02.07 00:46:40 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:46:42 INFO  time: compiled tp_mr in 1.8s[0m
+[0m2021.02.07 00:46:56 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:46:57 INFO  time: compiled tp_mr in 1.53s[0m
+something's wrong: no file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala in TP_MR.Monoid[B]RangePosition(file:///D:/Ddownload/TP_MR/src/main/scala/TP_MR.scala, 10712, 10712, 10720)
+[0m2021.02.07 00:55:32 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:55:32 INFO  time: compiled tp_mr in 0.33s[0m
+[0m2021.02.07 00:56:24 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 00:56:26 INFO  time: compiled tp_mr in 1.7s[0m
+[0m2021.02.07 01:00:07 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 01:00:07 INFO  time: compiled tp_mr in 0.29s[0m
+[0m2021.02.07 01:00:11 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 01:00:11 INFO  time: compiled tp_mr in 0.29s[0m
+[0m2021.02.07 01:00:20 INFO  compiling tp_mr (1 scala source)[0m
+[0m2021.02.07 01:00:20 INFO  time: compiled tp_mr in 0.27s[0m
+[0m2021.02.07 01:09:09 INFO  shutting down Metals[0m
+[0m2021.02.07 01:09:09 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.02.07 01:09:09 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.02.07 09:59:59 INFO  Started: Metals version 0.9.10 in workspace 'D:\Ddownload\TP_MR' for client vscode 1.53.0.[0m
+[0m2021.02.07 09:59:59 INFO  time: initialize in 0.53s[0m
+[0m2021.02.07 10:00:00 INFO  Attempting to connect to the build server...[0m
+[0m2021.02.07 10:00:01 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 36012'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.02.07 10:00:04 INFO  no build target: using presentation compiler with only scala-library[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.02.07 10:00:07 WARN  no build target for: D:\Ddownload\TP_MR\src\main\scala\TP_MR.scala[0m
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.6-21-464e4ec4...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'd:\Ddownload\TP_MR\.bloop'...
+[0m[32m[D][0m Loading project from 'd:\Ddownload\TP_MR\.bloop\tp_mr-test.json'
+[0m[32m[D][0m Loading project from 'd:\Ddownload\TP_MR\.bloop\tp_mr.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.13.1.
+[0m[32m[D][0m   => C:\Users\coren\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar
+[0m[32m[D][0m   => C:\Users\coren\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\1.12\jansi-1.12.jar
+[0m[32m[D][0m   => C:\Users\coren\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.1\scala-compiler-2.13.1.jar
+[0m[32m[D][0m   => C:\Users\coren\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.1\scala-library-2.13.1.jar
+[0m[32m[D][0m   => C:\Users\coren\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.1\scala-reflect-2.13.1.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'tp_mr', 'tp_mr-test'
+[0m[32m[D][0m Loading previous analysis for 'tp_mr-test' from 'D:\Ddownload\TP_MR\target\streams\test\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Loading previous analysis for 'tp_mr' from 'D:\Ddownload\TP_MR\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:36012...
+The server is listening for incoming connections at tcp://127.0.0.1:36012...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.02.07 10:00:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\coren\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.02.07 10:00:09 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 40060'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:40060...
+The server is listening for incoming connections at tcp://127.0.0.1:40060...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.02.07 10:00:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\coren\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.02.07 10:00:10 INFO  time: connected to build server in 9.63s[0m
+[0m2021.02.07 10:00:10 INFO  Connected to Build server v1.4.6-21-464e4ec4[0m
+[0m2021.02.07 10:00:10 INFO  time: imported build in 0.15s[0m
+[0m2021.02.07 10:00:13 INFO  time: indexed workspace in 2.51s[0m
+[0m2021.02.07 10:00:14 WARN  unexpected error processing the file D:\Ddownload\TP_MR\.bloop\tp_mr\bloop-bsp-clients-classes\classes-Metals-yFKp_lP6S4GSak1negzOXQ==\META-INF\semanticdb\src\main\scala\TP_MR.scala.semanticdb
+java.nio.file.FileSystemException: D:\Ddownload\TP_MR\.bloop\tp_mr\bloop-bsp-clients-classes\classes-Metals-yFKp_lP6S4GSak1negzOXQ==\META-INF\semanticdb\src\main\scala\TP_MR.scala.semanticdb: Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:104)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+[0m2021.02.07 10:00:14 WARN  unexpected error processing the file D:\Ddownload\TP_MR\.bloop\tp_mr\bloop-bsp-clients-classes\test-classes-Metals-yFKp_lP6S4GSak1negzOXQ==\META-INF\semanticdb\src\test\scala\TP_MR.scala.semanticdb
+java.nio.file.FileSystemException: D:\Ddownload\TP_MR\.bloop\tp_mr\bloop-bsp-clients-classes\test-classes-Metals-yFKp_lP6S4GSak1negzOXQ==\META-INF\semanticdb\src\test\scala\TP_MR.scala.semanticdb: Le processus ne peut pas accéder au fichier car ce fichier est utilisé par un autre processus.
+
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:86)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230)
+	at java.nio.file.Files.newByteChannel(Files.java:361)
+	at java.nio.file.Files.newByteChannel(Files.java:407)
+	at java.nio.file.Files.readAllBytes(Files.java:3152)
+	at scala.meta.internal.metals.SemanticdbIndexer.onChange(SemanticdbIndexer.scala:104)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$didChangeWatchedFiles$5(MetalsLanguageServer.scala:1159)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+[0m2021.02.07 10:05:33 INFO  shutting down Metals[0m
+[0m2021.02.07 10:05:33 INFO  Shut down connection with build server.[0m
+[0m2021.02.07 10:05:33 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
