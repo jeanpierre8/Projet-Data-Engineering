@@ -5,22 +5,18 @@ import scala.annotation.tailrec
 import java.util.Properties
 import org.apache.kafka.clients.producer._
 
-object Main {
+object DroneProducer {
 	def main(args: Array[String]): Unit = {
 		val words = Source.fromFile("resources/dico_fr.txt").getLines.toArray
 		val names = Source.fromFile("resources/names.txt").getLines.toArray
 		val r = Random
-		val reports = random_list_reports(r, names, words, 3)
-		println(reports(0))
-		println(reports(1))
-		println(reports(2))
-
+		val report = random_report(r, words, names)
 		val props = new Properties()
 		props.put("bootstrap.servers", "localhost:9092")
 		props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer")
 		props.put("value.serializer", "ReportSerializer")
 		val producer = new KafkaProducer[String, Report](props)
-		val record = new ProducerRecord[String, Report]("quickstart-events", "key", reports(0))
+		val record = new ProducerRecord[String, Report]("quickstart-events", "key", report)
 		producer.send(record)
 		producer.close()
 	}
