@@ -18,10 +18,24 @@ object AlertConsumer {
 		consumer.subscribe(util.Arrays.asList("quickstart-events"))
 		processStream(consumer)
 	}
+
 	@tailrec
 	def processStream(consumer: KafkaConsumer[String, Report]) : Unit= {
-		val record = consumer.poll(1000).asScala
-		record.iterator foreach println
-		processStream(consumer)	
+		val record = consumer.poll(0).asScala
+		record.iterator foreach {
+			record => {
+				if (contains_bad_peacescore(record.value.surronding_citizen)) {
+					println(record)
+				}
+			}
+		}
+		processStream(consumer)
+	}
+
+	@tailrec
+	def contains_bad_peacescore(citizens : List[(String, Int)]) : Boolean = citizens match {
+		case Nil => false
+		case head :: Nil => head._2 < 10
+		case head :: tail => head._2 < 10 || contains_bad_peacescore(tail)
 	}
 }
