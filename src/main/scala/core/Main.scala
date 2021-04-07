@@ -7,8 +7,8 @@ import org.apache.kafka.clients.producer._
 
 object Main {
 	def main(args: Array[String]): Unit = {
-		val words = Source.fromFile("resources/dico_fr.txt").getLines.toArray
 		val names = Source.fromFile("resources/names.txt").getLines.toArray
+		val words = Source.fromFile("resources/dico_fr.txt").getLines.toArray
 		val r = Random
 		val reports = random_list_reports(r, names, words, 3)
 		println(reports(0))
