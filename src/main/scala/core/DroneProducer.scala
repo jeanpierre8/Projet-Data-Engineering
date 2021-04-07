@@ -7,10 +7,10 @@ import org.apache.kafka.clients.producer._
 
 object DroneProducer {
 	def main(args: Array[String]): Unit = {
-		val words = Source.fromFile("resources/dico_fr.txt").getLines.toArray
 		val names = Source.fromFile("resources/names.txt").getLines.toArray
+		val words = Source.fromFile("resources/dico_fr.txt").getLines.toArray
 		val r = Random
-		val report = random_report(r, words, names)
+		val report = random_report(r, names, words)
 		val props = new Properties()
 		props.put("bootstrap.servers", "localhost:9092")
 		props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer")
