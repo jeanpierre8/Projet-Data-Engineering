@@ -1,0 +1,3 @@
+3) store message formatted as drone message in a distributed storage (ex: HDFS/S3)
+On peut utiliser confluent kafka et kafka connect
+On utilise KafKa et mongodb pour le distributed storage, pour le sink
